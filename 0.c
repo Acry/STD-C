@@ -3,8 +3,6 @@
 
 // TODO calloc
 
-// free( an address pointer); If ptr is NULL, no operation is performed.
-
 // sizeof syntax:
 // sizeof unary-expression  
 // sizeof ( type-name )
@@ -19,10 +17,13 @@ printf("Number: %d\n",numbers[0]);
 free(numbers);
 printf("\n");
 
+// If size is 0, then malloc() returns either NULL, or a unique pointer value
+// that can later be successfully passed to free().
 int *array;
 array=malloc(0);
 free(array);
-printf("\n");
+// free( an address pointer);
+// If ptr is NULL, no operation is performed.
 
 int *more_numbers;
 more_numbers=malloc(sizeof more_numbers * 10);

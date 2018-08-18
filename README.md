@@ -1,5 +1,7 @@
-Memory Allocation
-=================
+Standard C Snippets
+
+0 Memory Allocation
+===================
 
 void * malloc(size_t size)
 
