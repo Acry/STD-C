@@ -101,7 +101,7 @@ for(int i=1;i<26;i++){
  */
 
 last_array=realloc(last_array, 0);
-if (numbers_again!=NULL)
+if (last_array!=NULL)
 	free(last_array);
 else
 	printf("Nothin to free, realloc did that already.\n");
