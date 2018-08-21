@@ -9,11 +9,11 @@ reserves (bytes * count) and returns a pointer to the allocated memory.
 If size is 0, then `malloc()` returns either `NULL`,
 or a unique pointer value that can later be successfully passed to `free()`.
 
-`free()`
+`free()`  
 If `ptr` is `NULL`, no operation is performed.
 
 
-`realloc()
+`realloc()  
 void * realloc(void *ptr, size_t size);`
 
 If  `ptr`  is  `NULL`,  then the call is equivalent to `malloc(size)`,
