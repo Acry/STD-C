@@ -31,3 +31,4 @@ from `ptr`, or `NULL` if the request fails.  If size was equal to 0, either
 `realloc()` fails, the original block is left untouched; it is not freed
 or moved.
 
+[List of allocating C functions](https://www.lemoda.net/c/allocating-c-functions/index.html)
